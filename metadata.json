@@ -1,0 +1,6 @@
+{
+  "name": "AYZEK — Personal Life AI",
+  "description": "Personal Life Operating System that understands routines, retains contextual memories, reorganizes dynamic plans, and proactively assists your daily life.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

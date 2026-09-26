@@ -1,0 +1,530 @@
+{
+  "user": {
+    "id": "usr-ayzek-1",
+    "email": "gorkem.elligram@grispi.com",
+    "password": "ayzek2026password",
+    "name": "Görkem",
+    "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "is2FAEnabled": true,
+    "twoFactorSecret": "AYZEK-2FA-SEC-9921",
+    "twoFactorMethod": "authenticator_totp",
+    "backupCodesRemaining": 8,
+    "createdAt": "2026-09-01T08:00:00Z",
+    "lastLoginAt": "2026-09-26T23:14:54.982Z",
+    "devices": [
+      {
+        "deviceId": "dev-curr-web",
+        "deviceName": "Mevcut Web Oturumu (Chrome / MacOS)",
+        "deviceType": "desktop",
+        "locationSnippet": "Kadıköy, İstanbul",
+        "ipAddressSnippet": "176.240.***.42",
+        "lastActiveAt": "2026-09-26T23:14:54.982Z",
+        "isCurrentDevice": true,
+        "isTrusted2FA": true
+      },
+      {
+        "deviceId": "dev-iphone-16",
+        "deviceName": "iPhone 16 Pro (Görkem iOS)",
+        "deviceType": "mobile",
+        "locationSnippet": "Kadıköy Moda, İstanbul",
+        "ipAddressSnippet": "46.154.***.12",
+        "lastActiveAt": "2026-09-26T23:10:54.982Z",
+        "isCurrentDevice": false,
+        "isTrusted2FA": true
+      },
+      {
+        "deviceId": "dev-macbook-m3",
+        "deviceName": "MacBook Pro M3 Max (İş Ofis)",
+        "deviceType": "desktop",
+        "locationSnippet": "Levent Maslak, İstanbul",
+        "ipAddressSnippet": "185.92.***.88",
+        "lastActiveAt": "2026-09-26T22:29:54.982Z",
+        "isCurrentDevice": false,
+        "isTrusted2FA": true
+      },
+      {
+        "deviceId": "dev-ipad-air",
+        "deviceName": "iPad Air 13\" (Zihin & Çizim)",
+        "deviceType": "tablet",
+        "locationSnippet": "Kadıköy, İstanbul",
+        "ipAddressSnippet": "176.240.***.42",
+        "lastActiveAt": "2026-09-26T09:14:54.982Z",
+        "isCurrentDevice": false,
+        "isTrusted2FA": true
+      }
+    ]
+  },
+  "state": {
+    "profile": {
+      "id": "usr-ayzek-1",
+      "name": "Görkem",
+      "gender": "female",
+      "theme": "dark",
+      "wakeTime": "07:00",
+      "sleepTime": "23:00",
+      "workStartTime": "09:00",
+      "workEndTime": "18:00",
+      "communicationStyle": "wise_mentor",
+      "notificationFrequency": "proactive",
+      "primaryGoal": "Her gün 8.000 adım",
+      "locationContext": {
+        "home": "Kadıköy / Moda",
+        "work": "Levent Teknopark",
+        "currentEstimatedLocation": "Ofis / Çalışma Alanı"
+      },
+      "personalDetails": {
+        "homeDistrict": "Kadıköy / Moda",
+        "workplace": "Levent Teknopark",
+        "clothingStyle": "Smart Casual",
+        "favoriteWeatherOutfit": "Ilık havada nefes alan keten gömlek ve rahat sneaker",
+        "familyOverview": "Zeynep (Eş), Aile ve yakın dostlar",
+        "closestPeople": [
+          "Zeynep",
+          "Annem",
+          "İş Ekibi"
+        ]
+      },
+      "privacySettings": {
+        "allowDerivedInsights": true,
+        "autoForgetTemporaryAfterDays": 7,
+        "requireConfirmationForDeletions": true
+      },
+      "cycleTracking": {
+        "isEnabled": true,
+        "cycleLengthDays": 28,
+        "periodLengthDays": 5,
+        "lastPeriodDate": "2026-09-17",
+        "currentPhase": "follicular",
+        "dayOfCycle": 8,
+        "nextPeriodExpectedDate": "2026-10-15",
+        "phaseAdvice": {
+          "energyLevel": "Yüksek & Dinamik (Östrojen yükselişi)",
+          "workoutSuggestion": "Kuvvet antrenmanları, yeni projelere başlama ve tempolu kardiyo için harika zaman.",
+          "nutritionSuggestion": "Kompleks karbonhidratlar, taze yeşillikler ve fermente gıdalar.",
+          "mentalFocus": "Yaratıcılık, dil öğrenimi ve stratejik kararlar için zihnin en berrak olduğu evre."
+        }
+      },
+      "longTermGoals": [
+        {
+          "id": "ltg-1",
+          "title": "İngilizceyi Akıcı Konuşmak (C1 Profesyonel İletişim)",
+          "category": "language",
+          "targetHorizon": "6 Ay",
+          "whyItMatters": "Global projelerde rahat sunum yapmak ve yurt dışı ağını genişletmek.",
+          "currentProgress": 45,
+          "mentorWeeklyCheckIn": "İngilizceni geliştirmek için bu hafta 15 dakikalık 3 konuşma/dinleme pratiği planlayalım mı?",
+          "suggestedMicroHabit": "Haftada 3 gün işe giderken 15 dk İngilizce podcast dinleme.",
+          "lastCheckedInDate": "2026-09-24"
+        },
+        {
+          "id": "ltg-2",
+          "title": "Finansal Özgürlük & Pasif Yatırım Portföyü",
+          "category": "finance",
+          "targetHorizon": "Yıl Sonu",
+          "whyItMatters": "Gelecek kaygısını sıfırlayıp zihinsel özgürlüğe kavuşmak.",
+          "currentProgress": 60,
+          "mentorWeeklyCheckIn": "Bu ayki tasarruf hedefini yakaladın, portföy dağılımını gözden geçirelim mi?",
+          "suggestedMicroHabit": "Her maaş gününün ilk 24 saatinde otomatik yatırım transferi.",
+          "lastCheckedInDate": "2026-09-24"
+        }
+      ]
+    },
+    "personProfiles": [
+      {
+        "id": "pp-partner-1790464523704",
+        "name": "Zeynep",
+        "relation": "Eş",
+        "avatarEmoji": "🌸",
+        "avatarColor": "from-rose-500 to-pink-600",
+        "lastContactDate": "Bugün",
+        "proactiveStatus": "needs_attention",
+        "proactiveNudge": "Zeynep ile iş sonrası telefon detokslu sakin bir kahve veya akşam yürüyüşü öneriliyor.",
+        "psychologicalAnalysis": {
+          "archetype": "Duygusal Güvence & Kaliteli Zaman Arayan",
+          "attachmentStyle": "Güvenli (Secure)",
+          "communicationStyle": "Göz teması ve dinlenilmek ister.",
+          "stressTriggers": [
+            "Aceleye getirilmek",
+            "Sürekli ekranla meşgul olunması"
+          ],
+          "loveLanguage": "Kaliteli Zaman",
+          "psychologistAdvice": "Zeynep ile konuşurken günün yorgunluğunu kapıda bırakıp göz teması kurmak aranızdaki bağı güçlendirir."
+        },
+        "keyMemories": [
+          "Akşam telefon detoksu"
+        ],
+        "recommendedVenues": [
+          {
+            "id": "v-fresh-1",
+            "name": "Tarihi Moda İskelesi Kitap Kafe",
+            "district": "Kadıköy / Moda",
+            "category": "romantic_dinner",
+            "vibe": "Deniz kokusu, sakin ahşap doku ve gün batımı",
+            "addressSnippet": "Kadıköy / Moda Sahil Yolu",
+            "googleMapsUrl": "https://maps.google.com/?q=Moda+İskelesi",
+            "whySuggested": "Telefon detoksu ve baş başa dinlendirici sohbet için mükemmel."
+          }
+        ],
+        "conversationStarters": [
+          "Zeynep için akşam buluşması planla",
+          "Zeynep'e gönderebileceğim nazik bir mesaj öner"
+        ]
+      }
+    ],
+    "memories": [
+      {
+        "id": "mem-usr-1790464523704-1",
+        "type": "IDENTITY",
+        "content": "Kullanıcı Adı: Görkem. Meslek & Odak: Yapay Zeka Mimarı. Uyanış: 07:00, İş: 09:00-18:00, Uyku: 23:00.",
+        "importance": 5,
+        "confidence": 1,
+        "source": "user_explicit",
+        "isUserConfirmed": true,
+        "isActive": true,
+        "createdAt": "2026-09-26T23:15:23.704Z",
+        "updatedAt": "2026-09-26T23:15:23.704Z"
+      },
+      {
+        "id": "mem-usr-1790464523704-2",
+        "type": "LOCATION",
+        "content": "Ev Bölgesi: Kadıköy / Moda. İşyeri / Çalışma Alanı: Levent Teknopark.",
+        "importance": 5,
+        "confidence": 1,
+        "source": "user_explicit",
+        "isUserConfirmed": true,
+        "isActive": true,
+        "createdAt": "2026-09-26T23:15:23.704Z",
+        "updatedAt": "2026-09-26T23:15:23.704Z"
+      },
+      {
+        "id": "mem-usr-1790464523704-3",
+        "type": "OUTFIT_STYLE",
+        "content": "Giyim & Stil Tercihi: Smart Casual.",
+        "importance": 4,
+        "confidence": 0.95,
+        "source": "user_explicit",
+        "isUserConfirmed": true,
+        "isActive": true,
+        "createdAt": "2026-09-26T23:15:23.704Z",
+        "updatedAt": "2026-09-26T23:15:23.704Z"
+      },
+      {
+        "id": "mem-usr-1790464523704-4",
+        "type": "WELLNESS",
+        "content": "Sağlık & Yaşam Hedefi: Her gün 8.000 adım. Nazik, sürdürülebilir mikro alışkanlıklar bekleniyor.",
+        "importance": 5,
+        "confidence": 1,
+        "source": "user_explicit",
+        "isUserConfirmed": true,
+        "isActive": true,
+        "createdAt": "2026-09-26T23:15:23.704Z",
+        "updatedAt": "2026-09-26T23:15:23.704Z"
+      },
+      {
+        "id": "mem-usr-1790464523704-5",
+        "type": "RELATIONSHIP",
+        "content": "Zeynep (Eş): Akşam telefon detoksu.",
+        "importance": 5,
+        "confidence": 1,
+        "source": "user_explicit",
+        "isUserConfirmed": true,
+        "isActive": true,
+        "createdAt": "2026-09-26T23:15:23.704Z",
+        "updatedAt": "2026-09-26T23:15:23.704Z"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "tsk-fresh-1",
+        "title": "Yapay Zeka Mimarı · Günün Önceliklerini Belirle",
+        "description": "Günün en kritik 2 stratejik işine odaklanma.",
+        "scheduledDate": "2026-09-24",
+        "preferredTime": "09:00",
+        "durationMinutes": 45,
+        "priority": "high",
+        "category": "work",
+        "status": "pending",
+        "createdBy": "ai_assistant",
+        "createdAt": "2026-09-26T23:15:23.704Z",
+        "updatedAt": "2026-09-26T23:15:23.704Z"
+      },
+      {
+        "id": "tsk-fresh-2",
+        "title": "İş Çıkışı 20 Dk Dinlendirici Yürüyüş",
+        "description": "Kadıköy / Moda hattında zihinsel detoks ve günün kortizolünü düşürme.",
+        "scheduledDate": "2026-09-24",
+        "preferredTime": "18:00",
+        "durationMinutes": 20,
+        "priority": "medium",
+        "category": "health",
+        "contextTrigger": "work_commute",
+        "status": "pending",
+        "createdBy": "ai_assistant",
+        "createdAt": "2026-09-26T23:15:23.704Z",
+        "updatedAt": "2026-09-26T23:15:23.704Z"
+      },
+      {
+        "id": "tsk-fresh-3",
+        "title": "Zeynep İle Kaliteli Telefon Detokslu Akşam Sohbeti",
+        "description": "Akşam telefon detoksu",
+        "scheduledDate": "2026-09-24",
+        "preferredTime": "20:15",
+        "durationMinutes": 45,
+        "priority": "high",
+        "category": "personal",
+        "status": "pending",
+        "createdBy": "ai_assistant",
+        "createdAt": "2026-09-26T23:15:23.704Z",
+        "updatedAt": "2026-09-26T23:15:23.704Z"
+      }
+    ],
+    "goals": [
+      {
+        "id": "gol-1",
+        "title": "Haftada 3 Gün Düzenli Spor Yapmak",
+        "category": "health",
+        "targetDate": "2026-10-31",
+        "progress": 67,
+        "status": "active",
+        "milestones": [
+          {
+            "title": "Pazartesi Kardiyo seansı",
+            "completed": true
+          },
+          {
+            "title": "Çarşamba Kuvvet seansı",
+            "completed": true
+          },
+          {
+            "title": "Cuma / Cumartesi Core seansı",
+            "completed": false
+          }
+        ]
+      },
+      {
+        "id": "gol-2",
+        "title": "Yıllık Acil Durum Birikim Fonu (150.000 TL)",
+        "category": "finance",
+        "targetDate": "2026-12-31",
+        "progress": 80,
+        "status": "active",
+        "milestones": [
+          {
+            "title": "50.000 TL aşaması",
+            "completed": true
+          },
+          {
+            "title": "100.000 TL aşaması",
+            "completed": true
+          },
+          {
+            "title": "150.000 TL nihai hedef",
+            "completed": false
+          }
+        ]
+      }
+    ],
+    "habits": [
+      {
+        "id": "hbt-1",
+        "title": "Sabah 500ml Su & Esneme",
+        "frequency": "daily",
+        "preferredTime": "07:45",
+        "streak": 12,
+        "bestStreak": 21,
+        "completedToday": true,
+        "category": "wellness"
+      },
+      {
+        "id": "hbt-2",
+        "title": "Günde 25 Sayfa Kitap / Makale Okuma",
+        "frequency": "daily",
+        "preferredTime": "22:30",
+        "streak": 5,
+        "bestStreak": 14,
+        "completedToday": false,
+        "category": "mind"
+      },
+      {
+        "id": "hbt-3",
+        "title": "Akşam Dijital Detoks (Ekran kapatma 23:00)",
+        "frequency": "weekdays",
+        "preferredTime": "23:00",
+        "streak": 4,
+        "bestStreak": 9,
+        "completedToday": false,
+        "category": "wellness"
+      }
+    ],
+    "payments": [
+      {
+        "id": "pay-1",
+        "title": "Elektrik Faturası (Enerjisa)",
+        "amount": 780,
+        "currency": "TL",
+        "dueDate": "2026-09-25",
+        "category": "utility",
+        "isPaid": false,
+        "reminderDaysBefore": 1
+      },
+      {
+        "id": "pay-2",
+        "title": "Ev Kirası",
+        "amount": 24000,
+        "currency": "TL",
+        "dueDate": "2026-10-01",
+        "category": "rent",
+        "isPaid": false,
+        "reminderDaysBefore": 3
+      },
+      {
+        "id": "pay-3",
+        "title": "Vodafone Mobil Hat Faturası",
+        "amount": 450,
+        "currency": "TL",
+        "dueDate": "2026-10-05",
+        "category": "phone",
+        "isPaid": false,
+        "reminderDaysBefore": 2
+      }
+    ],
+    "subscriptions": [
+      {
+        "id": "sub-1",
+        "serviceName": "Spotify Premium",
+        "amount": 119,
+        "currency": "TL",
+        "billingCycle": "monthly",
+        "nextBillingDate": "2026-10-02",
+        "category": "entertainment"
+      },
+      {
+        "id": "sub-2",
+        "serviceName": "iCloud+ 2TB",
+        "amount": 129,
+        "currency": "TL",
+        "billingCycle": "monthly",
+        "nextBillingDate": "2026-10-10",
+        "category": "cloud"
+      },
+      {
+        "id": "sub-3",
+        "serviceName": "Gym & Spa Club Üyeliği",
+        "amount": 1850,
+        "currency": "TL",
+        "billingCycle": "monthly",
+        "nextBillingDate": "2026-10-15",
+        "category": "fitness"
+      },
+      {
+        "id": "sub-4",
+        "serviceName": "AI & Developer Tools Suite",
+        "amount": 680,
+        "currency": "TL",
+        "billingCycle": "monthly",
+        "nextBillingDate": "2026-10-18",
+        "category": "work"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "veh-1",
+        "plate": "34 AY 2024",
+        "makeModel": "BMW 320i M-Sport",
+        "modelYear": 2022,
+        "inspectionDue": "2026-11-15",
+        "insuranceDue": "2026-10-20",
+        "cascoDue": "2026-10-20",
+        "currentKm": 42500,
+        "maintenanceKm": 45000,
+        "notes": "Kışlık lastik değişimi için Ekim sonu randevu planlanacak."
+      }
+    ],
+    "documents": [
+      {
+        "id": "doc-1",
+        "title": "Samsung Buzdolabı Garanti Belgesi",
+        "docType": "warranty",
+        "expiryDate": "2026-10-25",
+        "notes": "Fatura No: TR-88493. 2 Yıl parça garantisi.",
+        "ocrExtractedText": "SAMSUNG ELEKTRONIK SERVIS GARANTISI. 24 AY gecerlidir. Bitis Tarihi: 25.10.2026."
+      },
+      {
+        "id": "doc-2",
+        "title": "Anadolu Sigorta Kasko Poliçesi",
+        "docType": "insurance",
+        "expiryDate": "2026-10-20",
+        "notes": "Poliçe No: 4492-KSK. Çekici ve ikame araç hakkı mevcut.",
+        "ocrExtractedText": "GENISLETILMIS KASKO POLICESI. Bitis: 20/10/2026."
+      },
+      {
+        "id": "doc-3",
+        "title": "Moda Daire Kira Kontratı",
+        "docType": "contract",
+        "expiryDate": "2027-04-01",
+        "notes": "Yıllık TÜFE oranında artış maddesi içeriyor.",
+        "ocrExtractedText": "KONUT KIRA SOZLESMESI. 12 Aylik yenileme donemi Nisan 2027."
+      }
+    ],
+    "specialDates": [
+      {
+        "id": "spd-1",
+        "personName": "Annem",
+        "relationship": "Anne",
+        "eventType": "birthday",
+        "dateMonthDay": "09-28",
+        "giftIdea": "Keten kapaklı nostaljik aile fotoğraf albümü"
+      },
+      {
+        "id": "spd-2",
+        "personName": "Zeynep",
+        "relationship": "Eş / Partner",
+        "eventType": "anniversary",
+        "dateMonthDay": "10-14",
+        "giftIdea": "Sapanca veya Şile doğa kaçamağı"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "notif-1",
+        "title": "Akşam Rutini & Alışveriş",
+        "body": "İşten çıkmana 15 dakika kaldı. Eve gitmeden markete uğrayacaktın. Süt, yumurta ve kahve listendeydi. 🛒",
+        "priority": "high",
+        "category": "contextual",
+        "actionType": "confirm_task",
+        "actionPayload": {
+          "taskId": "tsk-3"
+        },
+        "status": "unread",
+        "createdAt": "2026-09-26T23:09:54.980Z",
+        "triggerContext": "work_commute_offset_-15m"
+      },
+      {
+        "id": "notif-2",
+        "title": "Ödeme Hatırlatması",
+        "body": "Elektrik faturasının (780 TL) son ödeme tarihi yarın.",
+        "priority": "high",
+        "category": "finance",
+        "actionType": "open_plan",
+        "status": "read",
+        "createdAt": "2026-09-26T19:14:54.981Z",
+        "triggerContext": "due_date_tomorrow"
+      }
+    ],
+    "conversationHistory": [
+      {
+        "id": "msg-welcome-1790464523704",
+        "sender": "ayzek",
+        "text": "Merhaba Görkem! Hayatının yeni işletim sistemine hoş geldin. ✨\n\nSenin için tüm ritmi kurdum:\n• **Çalışma Saatlerin:** 09:00 - 18:00 arası (Yapay Zeka Mimarı)\n• **Yaşam Hattın:** Kadıköy / Moda & Levent Teknopark\n• **Kişisel Hedefin:** Her gün 8.000 adım\n• **Önemli İnsan:** Zeynep (Eş)\n\nBugünkü dinamik planını hazırladım; gün içinde gecikmeler yaşanırsa saatleri otomatik esneteceğim. Şimdi bana dilediğini sorabilir veya *\"Saat 15:00'e toplantı ekle\"*, *\"WhatsApp'ta ne konuşuldu?\"*, *\"Zeynep ile akşam için mekan öner\"* diyebilirsin.",
+        "timestamp": "2026-09-26T23:15:23.704Z",
+        "suggestions": [
+          "Bugünkü planımı özetle",
+          "Saat 15:00'e Yapay Zeka Mimarı toplantısı ekle",
+          "WhatsApp entegrasyonunda ne var?",
+          "Akşam için bana sakin bir mekan öner"
+        ]
+      }
+    ]
+  },
+  "updatedAt": "2026-09-26T23:15:23.704Z"
+}
